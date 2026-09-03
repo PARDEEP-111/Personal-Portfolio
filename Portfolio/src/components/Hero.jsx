@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="bg-[#161513] text-white py-15 px-6 lg:h-[91vh] py-5  ">
+    <div className="bg-[#161513] text-white py-15 px-6  ">
       {/* Row 1: image + text */}
       <div className="w-full justify-center items-center flex flex-col gap-4 lg:flex-row-reverse lg:justify-evenly lg:items-center lg:gap-10">
         <img
@@ -31,7 +31,7 @@ const Hero = () => {
       <div className="flex   items-center justify-center gap-4 mt-10">
         <a
           href="#contact"
-          className="border border-white text-white font-bold px-6 py-3 rounded-full hover:bg-white hover:text-black transition"
+          className="border border-white flex  justify-center items-center  w-[230px] text-white font-bold px-6 py-3 rounded-full hover:bg-white hover:text-black transition"
         >
           Get In Touch
         </a>
@@ -39,9 +39,9 @@ const Hero = () => {
         <a
           href="/resume.pdf"
           download
-          className="border border-white text-white font-bold px-6 py-3 rounded-full hover:bg-white hover:text-black transition"
+          className="border  w-[230px] flex  justify-center items-center border-white text-white font-bold px-6 py-3 rounded-full hover:bg-white hover:text-black transition"
         >
-          Download CV
+          Download resume 
         </a>
       </div>
     </div>
