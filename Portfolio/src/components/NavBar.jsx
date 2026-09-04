@@ -26,7 +26,7 @@ const NavBar = () => {
               className="relative text-white mx-2 font-bold group"
             >
               {link.label}
-              <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-white origin-left scale-x-0 transition-transform duration-200 ease-out group-hover:scale-x-100" />
+              <span className="absolute left-0 -bottom-1 h-0.5 w-full bg-white origin-left scale-x-0 transition-transform duration-200 ease-out group-hover:scale-x-100" />
             </a>
           ))}
         </div>
