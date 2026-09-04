@@ -1,6 +1,7 @@
 import Experience from "./components/Experience"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
+import LetsConnect from "./components/LetsConnect"
 import NavBar from "./components/NavBar"
 import Projects from "./components/Projects"
 import TechStack from "./components/TechStack"
@@ -14,6 +15,7 @@ function App() {
      <TechStack/>
      <Projects/>
      <Experience/>
+     <LetsConnect/>
      <Footer/>
     </div>
   )
