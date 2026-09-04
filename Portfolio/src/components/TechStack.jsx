@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const TechStack = () => {
   const skills = [
     "HTML", "CSS", "JavaScript", "React", "Node.js",
-    "Express.js", "MongoDB", "Git", "GitHub", "Tailwind CSS", "Vite",
+    "Express.js", "MongoDB", "Git", "GitHub", "Tailwind CSS", "Vite", "c/c++", "Npm", "Figma"
   ];
 
   const scrollRef = useRef(null);
