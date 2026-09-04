@@ -34,7 +34,7 @@ function Projects() {
 
         <div
           ref={scrollRef}
-          className="flex overflow-x-auto flex-nowrap snap-x snap-mandatory scroll-smooth [&::-webkit-scrollbar]:hidden [scrollbar-width:none] px-14 gap-6"
+          className="flex overflow-x-auto flex-nowrap snap-x snap-mandatory scroll-smooth [&::-webkit-scrollbar]:hidden [scrollbar:none] px-14 gap-6"
         >
           <Cards Projects={projects} />
         </div>

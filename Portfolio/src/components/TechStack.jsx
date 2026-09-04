@@ -32,12 +32,12 @@ const TechStack = () => {
 
       <div
         ref={scrollRef}
-        className="flex overflow-x-auto flex-nowrap items-center justify-start snap-x snap-mandatory text-white scroll-smooth [&::-webkit-scrollbar]:hidden [scrollbar-width:none] px-12"
+        className="flex overflow-x-auto flex-nowrap items-center justify-start snap-x snap-mandatory text-white scroll-smooth [&::-webkit-scrollbar]:hidden [scrollbar:none] px-12"
       >
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="mx-2 h-10 w-[130px] shrink-0 rounded-2xl flex items-center justify-center cursor-default bg-[#222222] snap-center"
+            className="mx-2 h-10 w-32.5 shrink-0 rounded-2xl flex items-center justify-center cursor-default bg-[#222222] snap-center"
           >
             {skill}
           </div>

@@ -31,7 +31,7 @@ const Hero = () => {
       <div className="flex   items-center justify-center gap-4 mt-10">
         <a
           href="#contact"
-          className="border border-white flex  justify-center items-center  w-[230px] text-white font-bold px-6 py-3 rounded-full hover:bg-white hover:text-black transition"
+          className="border border-white flex  justify-center items-center  w-57.5 text-white font-bold px-6 py-3 rounded-full hover:bg-white hover:text-black transition"
         >
           Get In Touch
         </a>
@@ -39,7 +39,7 @@ const Hero = () => {
         <a
           href="/resume.pdf"
           download
-          className="border  w-[230px] flex  justify-center items-center border-white text-white font-bold px-6 py-3 rounded-full hover:bg-white hover:text-black transition"
+          className="border  w-57.5 flex  justify-center items-center border-white text-white font-bold px-6 py-3 rounded-full hover:bg-white hover:text-black transition"
         >
           Download resume 
         </a>

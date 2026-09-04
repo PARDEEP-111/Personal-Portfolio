@@ -5,7 +5,7 @@ function Cards(props) {
       {props.Projects.map((project, index) => (
         <div
           key={index}
-          className="border border-white rounded-2xl h-[340px] w-[350px] shrink-0 bg-[black] flex flex-col justify-start items-start snap-center overflow-hidden"
+          className="border border-white rounded-2xl h-85 w-87.5 shrink-0 bg-[black] flex flex-col justify-start items-start snap-center overflow-hidden"
         >
           <img
             className="h-60 w-full object-cover"
