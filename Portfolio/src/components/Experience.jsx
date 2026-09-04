@@ -18,7 +18,7 @@ function Experience() {
   ];
 
   return (
-    <div className="w-full flex flex-col items-center justify-center bg-[#161513] py-6">
+    <div id="eduAndexp" className="w-full scroll-mt-20 flex flex-col items-center justify-center bg-[#161513] py-6">
       <h1 className="font-bold text-4xl text-white p-4 mb-4">
         Education & experience
       </h1>

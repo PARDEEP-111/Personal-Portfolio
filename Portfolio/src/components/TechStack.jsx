@@ -17,7 +17,7 @@ const TechStack = () => {
   };
 
   return (
-    <div className="w-full flex flex-col items-center bg-[#161513] ">
+    <div id="techstack" className="w-full scroll-mt-50 flex flex-col items-center bg-[#161513] ">
       
         <h1 className="text-3xl font-bold  mb-6 text-[rgb(132,145,160)]">Tech Stack</h1>
         <div className=" relative w-full  items-center bg-[#161513] py-6">

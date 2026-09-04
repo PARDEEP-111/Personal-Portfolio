@@ -6,21 +6,22 @@ const NavBar = () => {
 
   const links = [
     { label: "Home", href: "#home" },
-    { label: "About", href: "#about" },
-    { label: "Services", href: "#services" },
-    { label: "Contact", href: "#contact" },
+    { label: "Tech Stack", href: "#techstack" },
+    { label: "Projects", href: "#projects" },
+    { label: "Education & Experience", href: "#eduAndexp" },
+    { label: "Let's Connect", href: "#connect" },
   ];
 
   return (
-    <div className="w-full bg-[#222222] px-4">
+    <div className="w-full bg-[#222222]/90 px-4 sticky top-0 z-50 backdrop-blur-2xl">
       <div className="h-14 flex items-center justify-between">
-        <div className="font-bold text-white text-lg ">Pardeep Singh</div>
+        <div className="font-bold text-white text-lg">Pardeep Singh</div>
 
         {/* Desktop links */}
         <div className="hidden md:flex items-center justify-evenly w-[50%]">
           {links.map((link) => (
-            <a
-              key={link.href}
+            
+          <a    key={link.href}
               href={link.href}
               className="relative text-white mx-2 font-bold group"
             >
@@ -59,8 +60,8 @@ const NavBar = () => {
       >
         <div className="flex flex-col pb-4">
           {links.map((link) => (
-          <a  
-              key={link.href}
+            
+           <a   key={link.href}
               href={link.href}
               onClick={() => setIsOpen(false)}
               className="text-white py-2 font-bold transition-colors duration-200 hover:text-gray-300 hover:pl-2"

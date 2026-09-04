@@ -9,7 +9,7 @@ import TechStack from "./components/TechStack"
 
 function App() { 
   return (
-    <div className=" m-0 bg-[#161513] w-full h-full flex flex-col items-center justify-start overflow-x-hidden text-white  ">
+    <div className="  bg-[#161513] w-full h-full flex flex-col items-center justify-start  text-white  ">
      <NavBar/>
      <Hero/>
      <TechStack/>

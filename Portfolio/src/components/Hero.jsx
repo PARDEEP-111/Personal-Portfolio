@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="bg-[#161513] text-white py-15 px-6  ">
+    <div id="home" className="bg-[#161513] scroll-mt-20 text-white py-15 px-6  ">
       {/* Row 1: image + text */}
       <div className="w-full justify-center items-center flex flex-col gap-4 lg:flex-row-reverse lg:justify-evenly lg:items-center lg:gap-10">
         <img
@@ -10,7 +10,7 @@ const Hero = () => {
         />
 
         <div className="flex flex-col items-center text-center p-5 lg:items-start lg:text-left lg:max-w-xl">
-          <h1 className="text-2xl lg:text-4xl font-bold">
+          <h1  className="text-2xl lg:text-4xl font-bold">
             Hello, I <br className="lg:hidden" /> am Pardeep Singh
           </h1>
 
