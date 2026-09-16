@@ -10,7 +10,10 @@ function Projects() {
       title: "E-commerce Website",
       description: "A responsive e-commerce website built with React and Node.js.",
     },
-    
+    {      img: "https://wrapmarketusercontent.com/assets/items/thumb/c6f2cb86c93597ce849d40c3f3832244ed1642fa11f9e077d4711c9a847c1d91.webp?v=1753371526",
+      title: "E-commerce Website",
+      description: "A responsive e-commerce website built with React and Node.js.",
+}
     
     
 
