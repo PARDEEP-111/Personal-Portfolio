@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div id="home" className="bg-[#161513] scroll-mt-20 text-white py-15 px-6  ">
+    <div id="home" className="bg-[#161513] scroll-mt-20 text-white py-15 px-6 w-full  ">
       {/* Row 1: image + text */}
       <div className="w-full justify-center items-center flex flex-col gap-4 lg:flex-row-reverse lg:justify-evenly lg:items-center lg:gap-10">
         <img

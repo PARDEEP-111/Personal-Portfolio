@@ -23,7 +23,7 @@ function Projects() {
   const { scrollRef, scroll } = useHorizontalScroll(370);
 
   return (
-    <div  id="projects" className="bg-[#161513] scroll-mt-20 text-white p-2 flex flex-col w-full items-center">
+    <div  id="projects" className="bg-[#161513] scroll-mt-20  w-full text-white p-2 flex flex-col items-center">
       <h1 className="text-4xl font-bold p-5">Projects</h1>
 
       <div className="relative w-full mt-6">
