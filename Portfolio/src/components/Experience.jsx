@@ -18,8 +18,8 @@ function Experience() {
   ];
 
   return (
-    <div id="eduAndexp" className="w-full scroll-mt-20 flex flex-col items-center justify-center bg-[#161513] py-6">
-      <h1 className="font-bold text-4xl text-white p-4 mb-4">
+    <div id="eduAndexp" className="w-full scroll-mt-70 flex flex-col items-center justify-center bg-[#161513] py-6">
+      <h1 className="font-bold text-2xl lg:text-4xl text-white p-4 mb-4">
         Education & experience
       </h1>
 
@@ -31,13 +31,13 @@ function Experience() {
 }`}>
               <div className=" w-full flex  items-center justify-between mb-2">
                 <div className=" flex gap-2 items-center">
-                <span className="text-3xl">{item.icon}</span>
-                <h2 className="font-bold text-2xl">{item.title}</h2>
+                <span className="text-xl lg:text-2xl">{item.icon}</span>
+                <h2 className="font-bold text-xl lg:text-2xl">{item.title}</h2>
                 </div>
-                <p className="text-sm text-gray-400 ">{item.time}</p>
+                <p className="text-sm lg:text-sm text-gray-400 ">{item.time}</p>
               </div>
 
-              <p className="text-base">{item.description}</p>
+              <p className=" text-sm lg:text-xl">{item.description}</p>
             </div>
           );
         })}

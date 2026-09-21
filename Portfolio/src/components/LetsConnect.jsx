@@ -8,8 +8,8 @@ function Connect() {
   ];
 
   return (
-    <div id="connect" className="w-full bg-[#161513] scroll-mt-20 py-16 px-4 flex flex-col items-center">
-      <h2 className="text-3xl font-bold mb-2">Let's Connect</h2>
+    <div id="connect" className="w-full bg-[#161513] scroll-mt-20 pb-13 px-4 flex flex-col items-center">
+      <h2 className="text-2xl lg:text-4xl  font-bold mb-5 ">Let's Connect</h2>
       <p className="text-gray-400 text-center max-w-md mb-8">
         Looking for an intern or have a project in mind? I'm always open to
         discussing web development and collaborations.

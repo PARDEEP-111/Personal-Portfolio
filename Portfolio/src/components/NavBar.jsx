@@ -9,7 +9,7 @@ const NavBar = () => {
     { label: "Tech Stack", href: "#techstack" },
     { label: "Projects", href: "#projects" },
     { label: "Education & Experience", href: "#eduAndexp" },
-    { label: "Let's Connect", href: "#connect" },
+    { label: "Let's Connect", href: "#connect"},
   ];
 
   return (
